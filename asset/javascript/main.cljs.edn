@@ -1,0 +1,2 @@
+{:require [fetching.main]
+ :compiler-options {:asset-path "javascript/main.out"}}
