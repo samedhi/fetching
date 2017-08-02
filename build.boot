@@ -25,7 +25,6 @@
   "Builds cljs and code for production"
   []
   (with-pre-wrap fileset
-    (dosh "./build_zip.sh")
     (dosh "./build_crx.sh")
     fileset))
 
