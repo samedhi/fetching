@@ -5,18 +5,14 @@
     "description": "Preload video on page load",
     "version": "0.1",
 
-    "browser_action": {
-        "default_icon": "image/icon.png"
-    },
-
     "permissions": [
     ],
 
     "content_scripts": [
         {
             "matches": ["https://www.google.com/*"],
-            "css": ["css/style.css"],
-            "js": ["javascript/main.js"]
+            "css": ["style.css"],
+            "js": ["main.js"]
         }
     ]
 }
