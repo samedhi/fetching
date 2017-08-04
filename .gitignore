@@ -13,3 +13,5 @@ pom.xml.asc
 .nrepl-port
 /extension.pem
 /target.crx
+/extension.json
+/extension.zip
